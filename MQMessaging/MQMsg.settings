@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MQMessaging" GeneratedClassName="MQMessaging">
+  <Profiles />
+  <Settings>
+    <Setting Name="QueueManagerSet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">QM_TESTMQ</Value>
+    </Setting>
+    <Setting Name="QueueNameSet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Q1</Value>
+    </Setting>
+    <Setting Name="ChannelSet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TESTMQCONN</Value>
+    </Setting>
+    <Setting Name="MQHostSet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
