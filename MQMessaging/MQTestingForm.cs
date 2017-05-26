@@ -90,8 +90,10 @@ namespace MQMessaging
         private void updateFields(bool setTo)
         {
             this.sendMessageBox.Enabled = setTo;
+            this.sendMessageBox.Text = "";
             this.PutMessageBtn.Enabled = setTo;
             this.ReceiveMessageBox.Enabled = setTo;
+            this.ReceiveMessageBox.Text = "";
             this.GetMessageBtn.Enabled = setTo;
         }        
 
